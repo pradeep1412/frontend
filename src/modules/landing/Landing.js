@@ -7,7 +7,7 @@ function Landing() {
       <ul className='Header'>
         <li>2022</li>
         <li>Branding,identity,Digital Products,<br/>UX/UI Design,Webflow</li>
-        <li className='icon'><Image src={icon}/></li>
+        <li className='icon'><Image src={icon} alt='icon'/></li>
         <li>https://webflow.redis.agency</li>
         <li>Worldwide<br/>since 2012</li>
       </ul>
