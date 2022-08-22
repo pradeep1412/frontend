@@ -12,7 +12,7 @@ function Landing() {
         <li>Worldwide<br/>since 2012</li>
       </ul>
       <div>
-      <p className='Content'>TAKE WEBFLOW,ADD 12 YEARS OF DESIGN <br/>EXPERIENCE,A FLUFFY CAT AND A PINCH<br/>OF PASSION.THATS US.WE ARE<br/>DESIGNERS WHO CODE.</p>
+      <p className='Content'>TAKE WEBFLOW,ADD 12 YEARS OF DESIGN <br/>EXPERIENCE,A FLUFFY CAT AND A PINCH<br/>OF PASSION.THAT&#180;S US.WE ARE<br/>DESIGNERS WHO CODE.</p>
       </div>
       <div>
         <p className='Lowercontent'>REDIS®<br/>WEBFLOW</p>
