@@ -1,0 +1,16 @@
+@import url(./common\ css/colors.css);
+@import url(./common\ css/fonts.css);
+
+/*                                               modules                                                                */
+
+@import url(./modules/landing/index.css);
+
+
+
+body{
+  background-color: black;
+  color:white;
+  text-align: center;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
