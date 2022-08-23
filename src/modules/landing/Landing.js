@@ -9,9 +9,9 @@ function Landing() {
       <ul className='Header'>
         <li>2022</li>
         <li>Branding,identity,Digital Products,<br/>UX/UI Design,Webflow</li>
-        <li className='icon'><Image src={icon} alt='icon'/></li>
-        <li>https://webflow.redis.agency</li>
-        <li><Link className='Credentials' href="www.instagram.com">Login</Link></li>
+        <li className='icon'><Link href=""><Image src={icon} alt='icon'/></Link></li>
+        <li><Link className='Credentials' href="https://webflow.redis.agency">https://webflow.redis.agency</Link></li>
+        <li><Link className='Credentials' href="/login" >Login</Link></li>
         <li><Link className='Credentials' href="www.instagram.com">Sign Up</Link></li>
       </ul>
       <div>
