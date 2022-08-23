@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import icon from '../../../public/Admin/images/icon.png'
+import Footer from '../footer/Footer'
 function Landing() {
   return (
     <div>
@@ -9,7 +11,8 @@ function Landing() {
         <li>Branding,identity,Digital Products,<br/>UX/UI Design,Webflow</li>
         <li className='icon'><Image src={icon} alt='icon'/></li>
         <li>https://webflow.redis.agency</li>
-        <li>Worldwide<br/>since 2012</li>
+        <li><Link className='Credentials' href="www.instagram.com">Login</Link></li>
+        <li><Link className='Credentials' href="www.instagram.com">Sign Up</Link></li>
       </ul>
       <div>
       <p className='Content'>TAKE WEBFLOW,ADD 12 YEARS OF DESIGN <br/>EXPERIENCE,A FLUFFY CAT AND A PINCH<br/>OF PASSION.THAT&#180;S US.WE ARE<br/>DESIGNERS WHO CODE.</p>
@@ -17,7 +20,9 @@ function Landing() {
       <div>
         <p className='Lowercontent'>REDIS®<br/>WEBFLOW</p>
       </div>
+     <Footer/>
    </div>
+   
   )
 }
 

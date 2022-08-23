@@ -1,5 +1,6 @@
 .Header{
   list-style:none;
+  padding-right: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -14,6 +15,7 @@
 }
 .Lowercontent{
   font-size: 200px;
+  margin: 7px;
 }
 @media (max-width:1200px){
   .Lowercontent{

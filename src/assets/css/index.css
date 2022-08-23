@@ -4,11 +4,13 @@
 /*                                               modules                                                                */
 
 @import url(./modules/landing/index.css);
+@import url(./modules/footer/Footer.css);
 
 
 
 body{
   background-color: black;
+  
   color:white;
   text-align: center;
   margin: 0px;

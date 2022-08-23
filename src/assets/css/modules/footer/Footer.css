@@ -1,0 +1,22 @@
+.Footer{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  
+  
+}
+.Footer>li{
+  padding: 15px;
+}
+a:link{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover{
+  text-decoration: underline;
+  color: antiquewhite;
+}
+a:visited{
+  color:aliceblue;
+}
