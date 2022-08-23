@@ -3,23 +3,23 @@ import React from 'react'
 function Credentials() {
   return (
     <div>
-      <div class="popup">
-  <div class="close-btn">&times;</div>
-  <div class="form">
+      <div className="popup">
+  <div className="close-btn">&times;</div>
+  <div className="form">
     <h2>Log in</h2>
-    <div class="form-element">
+    <div className="form-element">
       <label>Name</label>
       <input type="text"id="email"placeholder="Enter Name"></input>
     </div>
-    <div class="form-element">
-      <label for="password">Phone No.</label>
+    <div className="form-element">
+      <label >Phone No.</label>
       <input type="tel"id="tel" pattern='[0-9]{10}'></input>
     </div>I
   
-    <div class="form-element">
+    <div className="form-element">
     <button>Sign in</button>
 </div>
-<div class="form-element">
+<div className="form-element">
 <a href="#"> Forgot password?</a>
 </div>
 </div>
