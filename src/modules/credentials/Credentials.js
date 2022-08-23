@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Link from 'next/link'
 function Credentials() {
   return (
     <div>
       <div className="popup">
-      <div className="close-btn">&times;</div>
+      <div className="close-btn"><Link href="/home">&times;</Link></div>
   <div className="form">
     <h2>Log in</h2>
     <div className="form-element">
