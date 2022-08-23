@@ -4,7 +4,7 @@ function Credentials() {
   return (
     <div>
       <div className="popup">
-  <div className="close-btn">&times;</div>
+      <div className="close-btn">&times;</div>
   <div className="form">
     <h2>Log in</h2>
     <div className="form-element">
@@ -23,7 +23,7 @@ function Credentials() {
 <a href="#"> Forgot password?</a>
 </div>
 </div>
-    </div>
+      </div>
     </div>
  )
 }
